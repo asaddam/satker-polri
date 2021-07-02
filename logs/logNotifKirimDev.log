@@ -1,0 +1,312 @@
+2021-03-31 17:28:07.690  INFO DESKTOP-0803EP0 --- [  restartedMain] c.m.s.Application                        : Starting Application on DESKTOP-0803EP0 with PID 19236 (started by Hp in D:\Data Muhlis\eclipse 2019\SatkerPolri)
+2021-03-31 17:28:07.711  INFO DESKTOP-0803EP0 --- [  restartedMain] c.m.s.Application                        : The following profiles are active: dev
+2021-03-31 17:28:07.763  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in C:\Users\Hp\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-03-31 17:28:07.764  INFO DESKTOP-0803EP0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-31 17:28:07.764  INFO DESKTOP-0803EP0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-31 17:28:08.480  INFO DESKTOP-0803EP0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 17:28:08.514  INFO DESKTOP-0803EP0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2021-03-31 17:28:08.901  INFO DESKTOP-0803EP0 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 17:28:09.276  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-03-31 17:28:09.285  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 17:28:09.286  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-03-31 17:28:09.286  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 17:28:09.387  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-03-31 17:28:09.389  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1624 ms
+2021-03-31 17:28:09.575  INFO DESKTOP-0803EP0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-03-31 17:28:09.580  WARN DESKTOP-0803EP0 --- [  restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-31 17:28:09.781  INFO DESKTOP-0803EP0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-03-31 17:28:09.855  INFO DESKTOP-0803EP0 --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-31 17:28:09.984  INFO DESKTOP-0803EP0 --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 17:28:10.359  INFO DESKTOP-0803EP0 --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 17:28:10.443 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration boolean -> org.hibernate.type.BooleanType@6702a4c1
+2021-03-31 17:28:10.443 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration boolean -> org.hibernate.type.BooleanType@6702a4c1
+2021-03-31 17:28:10.444 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6702a4c1
+2021-03-31 17:28:10.445 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5bfa1ce2
+2021-03-31 17:28:10.446 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration true_false -> org.hibernate.type.TrueFalseType@24f21b83
+2021-03-31 17:28:10.447 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration yes_no -> org.hibernate.type.YesNoType@870b98f
+2021-03-31 17:28:10.451 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte -> org.hibernate.type.ByteType@629c3054
+2021-03-31 17:28:10.451 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte -> org.hibernate.type.ByteType@629c3054
+2021-03-31 17:28:10.451 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@629c3054
+2021-03-31 17:28:10.453 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration character -> org.hibernate.type.CharacterType@34c6d742
+2021-03-31 17:28:10.454 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration char -> org.hibernate.type.CharacterType@34c6d742
+2021-03-31 17:28:10.454 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@34c6d742
+2021-03-31 17:28:10.456 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration short -> org.hibernate.type.ShortType@1516ea84
+2021-03-31 17:28:10.456 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration short -> org.hibernate.type.ShortType@1516ea84
+2021-03-31 17:28:10.456 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1516ea84
+2021-03-31 17:28:10.458 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration integer -> org.hibernate.type.IntegerType@27c60945
+2021-03-31 17:28:10.459 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration int -> org.hibernate.type.IntegerType@27c60945
+2021-03-31 17:28:10.459 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@27c60945
+2021-03-31 17:28:10.460 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration long -> org.hibernate.type.LongType@285830a9
+2021-03-31 17:28:10.461 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration long -> org.hibernate.type.LongType@285830a9
+2021-03-31 17:28:10.461 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Long -> org.hibernate.type.LongType@285830a9
+2021-03-31 17:28:10.464 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration float -> org.hibernate.type.FloatType@25086ea8
+2021-03-31 17:28:10.464 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration float -> org.hibernate.type.FloatType@25086ea8
+2021-03-31 17:28:10.465 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@25086ea8
+2021-03-31 17:28:10.467 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration double -> org.hibernate.type.DoubleType@2ef8f96
+2021-03-31 17:28:10.467 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration double -> org.hibernate.type.DoubleType@2ef8f96
+2021-03-31 17:28:10.467 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2ef8f96
+2021-03-31 17:28:10.468 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6481840a
+2021-03-31 17:28:10.468 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6481840a
+2021-03-31 17:28:10.470 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@4b9efc6c
+2021-03-31 17:28:10.470 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@4b9efc6c
+2021-03-31 17:28:10.472 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration string -> org.hibernate.type.StringType@1829c04b
+2021-03-31 17:28:10.472 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.String -> org.hibernate.type.StringType@1829c04b
+2021-03-31 17:28:10.473 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5db5d9c0
+2021-03-31 17:28:10.474 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3665b31b
+2021-03-31 17:28:10.475 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration url -> org.hibernate.type.UrlType@293cbd85
+2021-03-31 17:28:10.475 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.net.URL -> org.hibernate.type.UrlType@293cbd85
+2021-03-31 17:28:10.476 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Duration -> org.hibernate.type.DurationType@2aea2742
+2021-03-31 17:28:10.476 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2aea2742
+2021-03-31 17:28:10.478 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Instant -> org.hibernate.type.InstantType@623bc7e
+2021-03-31 17:28:10.478 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@623bc7e
+2021-03-31 17:28:10.479 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@4ffc00a5
+2021-03-31 17:28:10.479 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@4ffc00a5
+2021-03-31 17:28:10.480 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1757f237
+2021-03-31 17:28:10.481 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1757f237
+2021-03-31 17:28:10.482 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1a38dd64
+2021-03-31 17:28:10.482 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1a38dd64
+2021-03-31 17:28:10.484 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@96dcd55
+2021-03-31 17:28:10.485 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@96dcd55
+2021-03-31 17:28:10.486 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@26391a43
+2021-03-31 17:28:10.487 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@26391a43
+2021-03-31 17:28:10.488 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3a726683
+2021-03-31 17:28:10.489 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3a726683
+2021-03-31 17:28:10.490 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration date -> org.hibernate.type.DateType@50ae4393
+2021-03-31 17:28:10.490 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Date -> org.hibernate.type.DateType@50ae4393
+2021-03-31 17:28:10.491 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration time -> org.hibernate.type.TimeType@78d92680
+2021-03-31 17:28:10.491 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@78d92680
+2021-03-31 17:28:10.492 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration timestamp -> org.hibernate.type.TimestampType@3eb72394
+2021-03-31 17:28:10.493 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3eb72394
+2021-03-31 17:28:10.493 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3eb72394
+2021-03-31 17:28:10.493 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1eca9e76
+2021-03-31 17:28:10.494 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar -> org.hibernate.type.CalendarType@46c19fcd
+2021-03-31 17:28:10.495 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@46c19fcd
+2021-03-31 17:28:10.495 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@46c19fcd
+2021-03-31 17:28:10.495 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5622ef16
+2021-03-31 17:28:10.496 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration locale -> org.hibernate.type.LocaleType@70edaae1
+2021-03-31 17:28:10.496 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@70edaae1
+2021-03-31 17:28:10.497 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration currency -> org.hibernate.type.CurrencyType@25be705f
+2021-03-31 17:28:10.497 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@25be705f
+2021-03-31 17:28:10.498 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration timezone -> org.hibernate.type.TimeZoneType@6e2e65de
+2021-03-31 17:28:10.498 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6e2e65de
+2021-03-31 17:28:10.498 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration class -> org.hibernate.type.ClassType@1e52a3b0
+2021-03-31 17:28:10.498 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1e52a3b0
+2021-03-31 17:28:10.499 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@38f87b6d
+2021-03-31 17:28:10.500 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@38f87b6d
+2021-03-31 17:28:10.500 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@25a0bc22
+2021-03-31 17:28:10.501 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration binary -> org.hibernate.type.BinaryType@41632d71
+2021-03-31 17:28:10.502 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte[] -> org.hibernate.type.BinaryType@41632d71
+2021-03-31 17:28:10.502 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [B -> org.hibernate.type.BinaryType@41632d71
+2021-03-31 17:28:10.503 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@c3ad403
+2021-03-31 17:28:10.504 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@c3ad403
+2021-03-31 17:28:10.504 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@c3ad403
+2021-03-31 17:28:10.505 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration row_version -> org.hibernate.type.RowVersionType@48e7aa07
+2021-03-31 17:28:10.507 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration image -> org.hibernate.type.ImageType@2c84c4e4
+2021-03-31 17:28:10.508 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration characters -> org.hibernate.type.CharArrayType@777dbfd0
+2021-03-31 17:28:10.508 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration char[] -> org.hibernate.type.CharArrayType@777dbfd0
+2021-03-31 17:28:10.508 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [C -> org.hibernate.type.CharArrayType@777dbfd0
+2021-03-31 17:28:10.510 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@14256229
+2021-03-31 17:28:10.510 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@14256229
+2021-03-31 17:28:10.510 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@14256229
+2021-03-31 17:28:10.511 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration text -> org.hibernate.type.TextType@21b78de9
+2021-03-31 17:28:10.511 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ntext -> org.hibernate.type.NTextType@69f1e831
+2021-03-31 17:28:10.513 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration blob -> org.hibernate.type.BlobType@710f52c8
+2021-03-31 17:28:10.513 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@710f52c8
+2021-03-31 17:28:10.514 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@b4026f5
+2021-03-31 17:28:10.515 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration clob -> org.hibernate.type.ClobType@50b2463a
+2021-03-31 17:28:10.515 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@50b2463a
+2021-03-31 17:28:10.517 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration nclob -> org.hibernate.type.NClobType@33e7f2e1
+2021-03-31 17:28:10.518 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@33e7f2e1
+2021-03-31 17:28:10.519 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2894810d
+2021-03-31 17:28:10.520 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@659394d9
+2021-03-31 17:28:10.523 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration serializable -> org.hibernate.type.SerializableType@42cc9014
+2021-03-31 17:28:10.527 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration object -> org.hibernate.type.ObjectType@4d3558c8
+2021-03-31 17:28:10.528 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4d3558c8
+2021-03-31 17:28:10.529 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@49360b2f
+2021-03-31 17:28:10.529 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2ea2e9d9
+2021-03-31 17:28:10.529 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1b8b6d8f
+2021-03-31 17:28:10.530 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3de671ab
+2021-03-31 17:28:10.530 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@44707a4b
+2021-03-31 17:28:10.530 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7da5bf3d
+2021-03-31 17:28:10.531 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3d824213
+2021-03-31 17:28:10.531 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@33671721
+2021-03-31 17:28:10.629  INFO DESKTOP-0803EP0 --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-31 17:28:10.703 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@67272675] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4c886dad]
+2021-03-31 17:28:10.966 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@67272675] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@43d9ffc7]
+2021-03-31 17:28:11.003  INFO DESKTOP-0803EP0 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 17:28:11.010 TRACE DESKTOP-0803EP0 --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@43d9ffc7] for TypeConfiguration
+2021-03-31 17:28:11.011  INFO DESKTOP-0803EP0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-31 17:28:11.130  WARN DESKTOP-0803EP0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-31 17:28:11.286  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 17:28:11.475  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-03-31 17:28:11.503  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-31 17:28:11.526  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 17:28:11.553  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 17:28:11.556  INFO DESKTOP-0803EP0 --- [  restartedMain] c.m.s.Application                        : Started Application in 4.31 seconds (JVM running for 5.877)
+2021-03-31 17:29:04.044  INFO DESKTOP-0803EP0 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 17:29:04.044  INFO DESKTOP-0803EP0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-03-31 17:29:04.055  INFO DESKTOP-0803EP0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2021-03-31 17:29:10.460 DEBUG DESKTOP-0803EP0 --- [nio-8080-exec-2] o.s.j.c.JdbcTemplate                     : Executing SQL query [select kode_satker,nama_satker from kode_satker_polri]
+2021-03-31 17:29:10.516 DEBUG DESKTOP-0803EP0 --- [nio-8080-exec-2] o.s.j.c.JdbcTemplate                     : Executing SQL query [select kode_akun,detail from kode_akun_polri]
+2021-03-31 17:29:10.521  INFO DESKTOP-0803EP0 --- [nio-8080-exec-2] c.m.s.r.LoadPNBP                         : Folder Size :1
+2021-03-31 17:29:10.862 DEBUG DESKTOP-0803EP0 --- [nio-8080-exec-2] o.s.j.c.JdbcTemplate                     : Executing SQL batch update [INSERT into pnbp_polri(kode_bank,tahun,bulan,tglbayar_bpn,tgl_buku,kode_billing,ntpn,kl,satker,akun,description,nominal_akun) values(?,?,?,?,?,?,?,?,?,?,?,?)]
+2021-03-31 17:29:10.863 DEBUG DESKTOP-0803EP0 --- [nio-8080-exec-2] o.s.j.c.JdbcTemplate                     : Executing prepared SQL statement [INSERT into pnbp_polri(kode_bank,tahun,bulan,tglbayar_bpn,tgl_buku,kode_billing,ntpn,kl,satker,akun,description,nominal_akun) values(?,?,?,?,?,?,?,?,?,?,?,?)]
+2021-03-31 17:29:15.256  INFO DESKTOP-0803EP0 --- [nio-8080-exec-2] c.m.s.r.LoadPNBP                         : Tambah data Akhir :1933 dari 2891
+2021-03-31 17:30:01.738  INFO DESKTOP-0803EP0 --- [       Thread-6] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-03-31 17:30:01.752  INFO DESKTOP-0803EP0 --- [       Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 17:30:01.753  INFO DESKTOP-0803EP0 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-31 17:30:01.754 TRACE DESKTOP-0803EP0 --- [       Thread-6] o.h.t.s.TypeConfiguration$Scope          : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@43d9ffc7] for TypeConfiguration
+2021-03-31 17:30:01.754 DEBUG DESKTOP-0803EP0 --- [       Thread-6] o.h.t.s.TypeConfiguration$Scope          : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@4c00685c] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@43d9ffc7]
+2021-03-31 17:30:01.761  INFO DESKTOP-0803EP0 --- [       Thread-6] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-03-31 17:30:01.780  INFO DESKTOP-0803EP0 --- [       Thread-6] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-03-31 17:30:02.236  INFO DESKTOP-0803EP0 --- [  restartedMain] c.m.s.Application                        : Starting Application on DESKTOP-0803EP0 with PID 19236 (started by Hp in D:\Data Muhlis\eclipse 2019\SatkerPolri)
+2021-03-31 17:30:02.237  INFO DESKTOP-0803EP0 --- [  restartedMain] c.m.s.Application                        : The following profiles are active: dev
+2021-03-31 17:30:02.454  INFO DESKTOP-0803EP0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 17:30:02.460  INFO DESKTOP-0803EP0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-03-31 17:30:02.528  INFO DESKTOP-0803EP0 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 17:30:02.564  WARN DESKTOP-0803EP0 --- [  restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2021-03-31 17:30:02.641  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-03-31 17:30:02.642  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-31 17:30:02.642  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-03-31 17:30:02.642  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 17:30:02.699  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-03-31 17:30:02.700  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 460 ms
+2021-03-31 17:30:02.740  INFO DESKTOP-0803EP0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2021-03-31 17:30:02.741  WARN DESKTOP-0803EP0 --- [  restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-31 17:30:02.747  INFO DESKTOP-0803EP0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2021-03-31 17:30:02.750  INFO DESKTOP-0803EP0 --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-31 17:30:02.753 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration boolean -> org.hibernate.type.BooleanType@6702a4c1
+2021-03-31 17:30:02.753 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration boolean -> org.hibernate.type.BooleanType@6702a4c1
+2021-03-31 17:30:02.753 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6702a4c1
+2021-03-31 17:30:02.753 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5bfa1ce2
+2021-03-31 17:30:02.753 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration true_false -> org.hibernate.type.TrueFalseType@24f21b83
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration yes_no -> org.hibernate.type.YesNoType@870b98f
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte -> org.hibernate.type.ByteType@629c3054
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte -> org.hibernate.type.ByteType@629c3054
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@629c3054
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration character -> org.hibernate.type.CharacterType@34c6d742
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration char -> org.hibernate.type.CharacterType@34c6d742
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@34c6d742
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration short -> org.hibernate.type.ShortType@1516ea84
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration short -> org.hibernate.type.ShortType@1516ea84
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1516ea84
+2021-03-31 17:30:02.754 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration integer -> org.hibernate.type.IntegerType@27c60945
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration int -> org.hibernate.type.IntegerType@27c60945
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@27c60945
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration long -> org.hibernate.type.LongType@285830a9
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration long -> org.hibernate.type.LongType@285830a9
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Long -> org.hibernate.type.LongType@285830a9
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration float -> org.hibernate.type.FloatType@25086ea8
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration float -> org.hibernate.type.FloatType@25086ea8
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@25086ea8
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration double -> org.hibernate.type.DoubleType@2ef8f96
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration double -> org.hibernate.type.DoubleType@2ef8f96
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2ef8f96
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6481840a
+2021-03-31 17:30:02.755 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6481840a
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@4b9efc6c
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@4b9efc6c
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration string -> org.hibernate.type.StringType@1829c04b
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.String -> org.hibernate.type.StringType@1829c04b
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5db5d9c0
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3665b31b
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration url -> org.hibernate.type.UrlType@293cbd85
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.net.URL -> org.hibernate.type.UrlType@293cbd85
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Duration -> org.hibernate.type.DurationType@2aea2742
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2aea2742
+2021-03-31 17:30:02.756 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Instant -> org.hibernate.type.InstantType@623bc7e
+2021-03-31 17:30:02.757 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@623bc7e
+2021-03-31 17:30:02.757 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@4ffc00a5
+2021-03-31 17:30:02.757 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@4ffc00a5
+2021-03-31 17:30:02.757 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1757f237
+2021-03-31 17:30:02.757 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1757f237
+2021-03-31 17:30:02.757 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1a38dd64
+2021-03-31 17:30:02.757 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1a38dd64
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@96dcd55
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@96dcd55
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@26391a43
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@26391a43
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3a726683
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3a726683
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration date -> org.hibernate.type.DateType@50ae4393
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Date -> org.hibernate.type.DateType@50ae4393
+2021-03-31 17:30:02.758 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration time -> org.hibernate.type.TimeType@78d92680
+2021-03-31 17:30:02.759 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@78d92680
+2021-03-31 17:30:02.759 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration timestamp -> org.hibernate.type.TimestampType@3eb72394
+2021-03-31 17:30:02.759 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3eb72394
+2021-03-31 17:30:02.759 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3eb72394
+2021-03-31 17:30:02.759 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1eca9e76
+2021-03-31 17:30:02.759 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar -> org.hibernate.type.CalendarType@46c19fcd
+2021-03-31 17:30:02.759 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@46c19fcd
+2021-03-31 17:30:02.759 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@46c19fcd
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5622ef16
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration locale -> org.hibernate.type.LocaleType@70edaae1
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@70edaae1
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration currency -> org.hibernate.type.CurrencyType@25be705f
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@25be705f
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration timezone -> org.hibernate.type.TimeZoneType@6e2e65de
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6e2e65de
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration class -> org.hibernate.type.ClassType@1e52a3b0
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1e52a3b0
+2021-03-31 17:30:02.760 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@38f87b6d
+2021-03-31 17:30:02.761 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@38f87b6d
+2021-03-31 17:30:02.761 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@25a0bc22
+2021-03-31 17:30:02.761 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration binary -> org.hibernate.type.BinaryType@41632d71
+2021-03-31 17:30:02.761 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte[] -> org.hibernate.type.BinaryType@41632d71
+2021-03-31 17:30:02.761 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [B -> org.hibernate.type.BinaryType@41632d71
+2021-03-31 17:30:02.761 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@c3ad403
+2021-03-31 17:30:02.761 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@c3ad403
+2021-03-31 17:30:02.761 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@c3ad403
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration row_version -> org.hibernate.type.RowVersionType@48e7aa07
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration image -> org.hibernate.type.ImageType@2c84c4e4
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration characters -> org.hibernate.type.CharArrayType@777dbfd0
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration char[] -> org.hibernate.type.CharArrayType@777dbfd0
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [C -> org.hibernate.type.CharArrayType@777dbfd0
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@14256229
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@14256229
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@14256229
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration text -> org.hibernate.type.TextType@21b78de9
+2021-03-31 17:30:02.762 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ntext -> org.hibernate.type.NTextType@69f1e831
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration blob -> org.hibernate.type.BlobType@710f52c8
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@710f52c8
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@b4026f5
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration clob -> org.hibernate.type.ClobType@50b2463a
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@50b2463a
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration nclob -> org.hibernate.type.NClobType@33e7f2e1
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@33e7f2e1
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2894810d
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@659394d9
+2021-03-31 17:30:02.763 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration serializable -> org.hibernate.type.SerializableType@42cc9014
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration object -> org.hibernate.type.ObjectType@4d3558c8
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4d3558c8
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1ce1cf22
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@185ce83b
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@105723e0
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3c53c810
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2e599867
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@513bb0a7
+2021-03-31 17:30:02.764 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@785ad143
+2021-03-31 17:30:02.765 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5a6b8510
+2021-03-31 17:30:02.767  INFO DESKTOP-0803EP0 --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-31 17:30:02.773 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@70d18288] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@45bad2df]
+2021-03-31 17:30:02.782 DEBUG DESKTOP-0803EP0 --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@70d18288] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@21bf9611]
+2021-03-31 17:30:02.782  INFO DESKTOP-0803EP0 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 17:30:02.782 TRACE DESKTOP-0803EP0 --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@21bf9611] for TypeConfiguration
+2021-03-31 17:30:02.782  INFO DESKTOP-0803EP0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-31 17:30:02.826  WARN DESKTOP-0803EP0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-31 17:30:02.873  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 17:30:02.932  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-03-31 17:30:02.944  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-31 17:30:02.956  INFO DESKTOP-0803EP0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-03-31 17:30:02.961  INFO DESKTOP-0803EP0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-31 17:30:02.962  INFO DESKTOP-0803EP0 --- [  restartedMain] c.m.s.Application                        : Started Application in 0.771 seconds (JVM running for 117.283)
+2021-03-31 17:30:02.964  INFO DESKTOP-0803EP0 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-31 17:30:22.889  INFO DESKTOP-0803EP0 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 17:30:22.890  INFO DESKTOP-0803EP0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-03-31 17:30:22.897  INFO DESKTOP-0803EP0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 7 ms
+2021-03-31 17:30:22.930 DEBUG DESKTOP-0803EP0 --- [nio-8080-exec-1] o.s.j.c.JdbcTemplate                     : Executing SQL query [select kode_satker,nama_satker from kode_satker_polri]
+2021-03-31 17:30:22.943 DEBUG DESKTOP-0803EP0 --- [nio-8080-exec-1] o.s.j.c.JdbcTemplate                     : Executing SQL query [select kode_akun,detail from kode_akun_polri]
+2021-03-31 17:30:22.947  INFO DESKTOP-0803EP0 --- [nio-8080-exec-1] c.m.s.r.LoadPNBP                         : Folder Size :1
+2021-03-31 17:30:23.109 DEBUG DESKTOP-0803EP0 --- [nio-8080-exec-1] o.s.j.c.JdbcTemplate                     : Executing SQL batch update [INSERT into pnbp_polri(kode_bank,tahun,bulan,tglbayar_bpn,tgl_buku,kode_billing,ntpn,kl,satker,akun,description,nominal_akun) values(?,?,?,?,?,?,?,?,?,?,?,?)]
+2021-03-31 17:30:23.109 DEBUG DESKTOP-0803EP0 --- [nio-8080-exec-1] o.s.j.c.JdbcTemplate                     : Executing prepared SQL statement [INSERT into pnbp_polri(kode_bank,tahun,bulan,tglbayar_bpn,tgl_buku,kode_billing,ntpn,kl,satker,akun,description,nominal_akun) values(?,?,?,?,?,?,?,?,?,?,?,?)]
+2021-03-31 17:30:26.784  INFO DESKTOP-0803EP0 --- [nio-8080-exec-1] c.m.s.r.LoadPNBP                         : Tambah data Akhir :1933 dari 2891
